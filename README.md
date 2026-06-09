@@ -16,7 +16,7 @@ License: MIT (repository structure) · PDFs CC-BY 4.0 (per Zenodo metadata)
 - **HAL ID**: hal-05631107
 - **Filename**: `eu-ai-act-readiness-report-april-2026.pdf`
 - **OpenTimestamps proof**: see [sprinkling-act/timestamps](https://github.com/sprinkling-act/timestamps)
-- **Site landing**: [sprinklingact.com/reports/eu-ai-act-readiness-report](https://sprinklingact.com/reports/eu-ai-act-readiness-report)
+- **Site landing**: [sprinklingact.com/reports/eu-ai-act-readiness-april-2026](https://sprinklingact.com/reports/eu-ai-act-readiness-april-2026)
 
 **Headline findings**:
 - 74% of 50 European AI companies trigger high-risk classification under Annex III
