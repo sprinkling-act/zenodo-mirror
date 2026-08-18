@@ -11,7 +11,8 @@ License: MIT (repository structure) · PDFs CC-BY 4.0 (per Zenodo metadata)
 - **Title**: EU AI Act Readiness Report — What We Found Screening 50 European AI Companies
 - **Date**: April 2026
 - **Pages**: 11
-- **Zenodo concept DOI**: [10.5281/zenodo.19671328](https://doi.org/10.5281/zenodo.19671328)
+- **Zenodo concept DOI**: [10.5281/zenodo.19671328](https://doi.org/10.5281/zenodo.19671328) (resolves to the latest version)
+- **Versions**: v1 [10.5281/zenodo.19671329](https://doi.org/10.5281/zenodo.19671329) · v2 [10.5281/zenodo.19820525](https://doi.org/10.5281/zenodo.19820525) deposited 27 April 2026
 - **SSRN ID**: 6652418 (DISTRIBUTED)
 - **HAL ID**: hal-05631107
 - **Filename**: `eu-ai-act-readiness-report-april-2026.pdf`
@@ -44,37 +45,38 @@ License: MIT (repository structure) · PDFs CC-BY 4.0 (per Zenodo metadata)
 - **Filename**: `eu-ai-act-third-attractor-may-2026.pdf`
 - **OpenTimestamps proof**: see [sprinkling-act/timestamps](https://github.com/sprinkling-act/timestamps)
 
-## 2. Upcoming publications (pipeline)
+## 2. Consolidated edition
 
-| Document | Type | Expected | Status |
-|---|---|---|---|
-| Note of Correction — Readiness Report v1.1 | NoC | May/June 2026 | FINAL DRAFT v0.3 ready |
-| Sprinkling Act — What We Are Not (A5) | Institutional position | May/June 2026 | DRAFT v0.2 ready |
-| Note of Correction — Annex A v1.1 | NoC | June 2026 | Planned |
-| Sprinkling Act Self-Assessment Full Report 2026 (B1) | Application of own methodology to SA | Q3 2026 | Planned (40-60h focus) |
-| Bloc 1bis institutional PDFs (A6, A7, A8, A9, A10, A11, A12, A13) | Various | Q3-Q4 2026 | Planned |
-| Cross-Jurisdiction Comparison v1.0 | Zenodo paper | Post-first client | Planned |
+**The Deployer Multiplier: Classification, Cascade, and the Third Structural Pole of the EU AI Act**
+Eliva Press, 12 June 2026 · 82 pages · EN · ISBN 978-99993-4-609-2
+[Publisher](https://www.elivapress.com/en/book/book-4559819695/) · [Amazon](https://www.amazon.com/dp/999934609X)
 
-## 3. Repository topology
+A print consolidation of the three papers above. It adds no new research. The open-access Zenodo versions remain the reference and the thing to cite: they are free, CC BY 4.0, versioned, and carry the colour figures that the print edition renders in greyscale.
+
+## 3. What is not published
+
+Nothing has been deposited since May 2026. Earlier revisions of this file carried a table of upcoming publications with expected dates. Those dates passed without deposits, so the table has been removed rather than rolled forward. A publication appears here when it has a DOI, not before.
+
+## 4. Repository topology
 
 ```
 sprinkling-act/
 ├── timestamps/      # OpenTimestamps .ots proofs for published PDFs
 ├── zenodo-mirror/   # this repository, index of academic publications
-├── methodology/     # 6-gate framework v1.3 (MIT)
+├── methodology/     # Human in the Map v2.0 + the AI Act gate framework v1.3 (MIT)
 └── .github/         # org profile (verified domain sprinklingact.com)
 ```
 
 Each repository has a single purpose. Cross-references between them are explicit in their READMEs.
 
-## 4. Authoritative versus mirror
+## 5. Authoritative versus mirror
 
 - **Zenodo record (DOI)** is the **authoritative reference**. Always cite the DOI, not the GitHub URL.
 - **This repository** is a **redundancy mirror** for navigation. PDFs may be added here for convenience, but the canonical source is Zenodo.
 - **OpenTimestamps proofs** ([sprinkling-act/timestamps](https://github.com/sprinkling-act/timestamps)) are the **cryptographic anchor**. The Bitcoin blockchain timestamp confirms the document existed at the claimed date.
 - **SSRN and HAL** are alternative academic indexing channels. Same content, different platform.
 
-## 5. Citation
+## 6. Citation
 
 When citing a Sprinkling Act publication, always use the Zenodo DOI:
 
@@ -85,17 +87,17 @@ Sprinkling Act. Zenodo. https://doi.org/10.5281/zenodo.19671328
 
 For the suggested citation block of each individual publication, see the corresponding Zenodo record.
 
-## 6. License
+## 7. License
 
 Repository structure: **MIT License**.
 
 PDF content: **CC-BY 4.0** (Creative Commons Attribution 4.0 International), per Zenodo metadata. You may reproduce, distribute, and adapt these documents, including for commercial purposes, provided you credit Sprinkling Act and link back to the Zenodo DOI.
 
-## 7. What this repository is NOT
+## 8. What this repository is NOT
 
 - Not the authoritative source of PDFs. The Zenodo record is.
 - Not the place to file substantive issues about publication content. Use the Sprinkling Act contact channels for that (see [sprinklingact.com/contact](https://sprinklingact.com/contact)).
-- Not affiliated with Zenodo, the EU Commission, or any third party. Sprinkling Act is a private independent assessment authority registered in Belgium (BCE BE 1034.962.482), not a notified body within the meaning of Regulation (EU) 2024/1689.
+- Not affiliated with Zenodo, the EU Commission, or any third party. Sprinkling Act is a independent analysis firm registered in Belgium (BCE BE 1034.962.482), not a notified body within the meaning of Regulation (EU) 2024/1689.
 
 *Maintained by Sprinkling Act · Brussels, Belgium · [sprinklingact.com](https://sprinklingact.com)*
 *ORCID Lamar B. Shucrani: [0009-0002-5093-8550](https://orcid.org/0009-0002-5093-8550)*
