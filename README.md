@@ -1,6 +1,6 @@
 # Sprinkling Act Zenodo Mirror
 
-Index of Sprinkling Act academic publications: DOIs, cross-references to SSRN and HAL, and pointers to OpenTimestamps proofs. PDFs are hosted on Zenodo (the authoritative reference); this repository is a navigation index.
+Index of Sprinkling Act academic publications: DOIs, cross-references to SSRN, and pointers to OpenTimestamps proofs. PDFs are hosted on Zenodo (the authoritative reference); this repository is a navigation index.
 
 License: MIT (repository structure) · PDFs CC-BY 4.0 (per Zenodo metadata)
 
@@ -14,7 +14,6 @@ License: MIT (repository structure) · PDFs CC-BY 4.0 (per Zenodo metadata)
 - **Zenodo concept DOI**: [10.5281/zenodo.19671328](https://doi.org/10.5281/zenodo.19671328) (resolves to the latest version)
 - **Versions**: v1 [10.5281/zenodo.19671329](https://doi.org/10.5281/zenodo.19671329) · v2 [10.5281/zenodo.19820525](https://doi.org/10.5281/zenodo.19820525) deposited 27 April 2026
 - **SSRN ID**: 6652418 (DISTRIBUTED)
-- **HAL ID**: hal-05631107
 - **Filename**: `eu-ai-act-readiness-report-april-2026.pdf`
 - **OpenTimestamps proof**: see [sprinkling-act/timestamps](https://github.com/sprinkling-act/timestamps)
 - **Site landing**: [sprinklingact.com/reports/eu-ai-act-readiness-april-2026](https://sprinklingact.com/reports/eu-ai-act-readiness-april-2026)
@@ -30,7 +29,6 @@ License: MIT (repository structure) · PDFs CC-BY 4.0 (per Zenodo metadata)
 - **Date**: May 2026 (v1.1 final)
 - **Zenodo concept DOI**: [10.5281/zenodo.20042174](https://doi.org/10.5281/zenodo.20042174)
 - **SSRN ID**: 6816018
-- **HAL ID**: hal-05631110
 - **Filename**: `eu-ai-act-readiness-report-annex-a-v1.1-final-may-2026.pdf`
 - **OpenTimestamps proof**: see [sprinkling-act/timestamps](https://github.com/sprinkling-act/timestamps)
 - **Parent**: links to EU AI Act Readiness Report (April 2026) via Zenodo Related Works ("is supplement to")
@@ -41,7 +39,6 @@ License: MIT (repository structure) · PDFs CC-BY 4.0 (per Zenodo metadata)
 - **Date**: May 2026
 - **Zenodo concept DOI**: [10.5281/zenodo.20343243](https://doi.org/10.5281/zenodo.20343243)
 - **SSRN ID**: 6815659
-- **HAL ID**: _filing in progress_
 - **Filename**: `eu-ai-act-third-attractor-may-2026.pdf`
 - **OpenTimestamps proof**: see [sprinkling-act/timestamps](https://github.com/sprinkling-act/timestamps)
 
@@ -82,7 +79,8 @@ Each repository has a single purpose. Cross-references between them are explicit
 - **Zenodo record (DOI)** is the **authoritative reference**. Always cite the DOI, not the GitHub URL.
 - **This repository** is a **redundancy mirror** for navigation. PDFs may be added here for convenience, but the canonical source is Zenodo.
 - **OpenTimestamps proofs** ([sprinkling-act/timestamps](https://github.com/sprinkling-act/timestamps)) are the **cryptographic anchor**. The Bitcoin blockchain timestamp confirms the document existed at the claimed date.
-- **SSRN and HAL** are alternative academic indexing channels. Same content, different platform.
+- **SSRN** is an alternative academic indexing channel. Same content, different platform.
+- **HAL** is not used. Two HAL identifiers were listed here until 11 September 2026; neither resolves, and the HAL API returns no record for them nor for the author. No HAL deposit exists. The line is removed rather than corrected, because a filing that never happened has nothing to correct.
 
 ## 7. Citation
 
